@@ -1,0 +1,40 @@
+# Gradle и кэш сборки
+.gradle/
+build/
+**/build/
+
+# Локальная конфигурация (путь к SDK, у каждого свой)
+local.properties
+
+# IDE (Android Studio / IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+.navigation/
+captures/
+
+# Артефакты сборки
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.hprof
+
+# Ключи подписи (КРИТИЧЕСКИ ВАЖНО! Никогда не коммитить)
+*.jks
+*.keystore
+key.properties
+
+# Нативные сборки (NDK/CMake)
+.externalNativeBuild/
+.cxx/
+obj/
+
+# Системные и временные файлы
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*~
